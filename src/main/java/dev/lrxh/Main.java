@@ -33,10 +33,10 @@ public class Main {
         double input1 = 9;
         double input2 = 4;
 
-        System.out.println("Output " + (car(input1, weights[0], input2, weights[1])));
+        System.out.println("Output " + (neuralNetwork(input1, weights[0], input2, weights[1])));
     }
 
-    private static double car(double input1, double weight1_1, double input2, double weight2_1) {
+    private static double neuralNetwork(double input1, double weight1_1, double input2, double weight2_1) {
         return input1 * weight1_1 + input2 * weight2_1;
     }
 
